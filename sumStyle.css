@@ -1,0 +1,109 @@
+
+.logo{
+    width: 100px;
+    height: 50px;
+    align-self: center;
+}
+.navBar{
+    font-family: caliibri;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/backg.jpg);
+
+}
+.navLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navLinks ul li a{
+    
+    text-decoration: none;
+    font-size: 13px;
+}
+.navLinks ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navLinks ul li:hover:after{
+    width: 75%;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: rgb(245, 243, 243);
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.sumDetails{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/backg.jpg);
+    color: #fff;
+}
+.sumDetails h1{
+    text-align: center;
+}
+.sumDetails input{
+    
+    height: 20px;
+    width: 35%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    padding: 0 0 0 45px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+#bs {
+    padding-left: 25%;
+}
+
+#spec{
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.sumOne{
+    padding-left: 25%;
+}
+.sumTwo{
+    padding-left: 25%;
+}
+.footer{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/cinema.webp);
+    height: 220px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+.footer h1{
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 10px;
+}
+.footer h3{
+    color: darkgrey;
+    margin-left: 10px;
+}
+.footer h5{
+    color: #fff;
+    padding: 5px;
+}
+.fa-brands{
+    color: #36abf4;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+

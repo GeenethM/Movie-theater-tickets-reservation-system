@@ -1,0 +1,101 @@
+.logo{
+    width: 100px;
+    height: 50px;
+    align-self: center;
+}
+.navBar{
+    font-family: caliibri;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/poster1.jpg);
+}
+.navLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navLinks ul li a{
+    
+    text-decoration: none;
+    font-size: 13px;
+}
+.navLinks ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navLinks ul li:hover:after{
+    width: 75%;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: rgb(245, 239, 239);
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+    text-decoration: none;
+}
+button{
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 5px;
+}
+button a{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+.venue{
+    padding-top: 50px;
+    text-align: center;
+    background-color: slategray;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: aliceblue;
+    height: 300px;
+    width: 100%;
+}
+.venue button{
+    padding: 8px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.footer{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/cinema.webp);
+    height: 220px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+.footer h1{
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 10px;
+}
+.footer h3{
+    color: darkgrey;
+    margin-left: 10px;
+}
+.footer h5{
+    color: #fff;
+    padding: 5px;
+}
+.fa-brands{
+    color: #36abf4;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.sameshit {
+    display: flex;
+    justify-content: space-between;
+}
